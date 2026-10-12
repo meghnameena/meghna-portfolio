@@ -10,13 +10,13 @@ const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || '21zB4BTov
 export const fallbackProjects = [
   {
     _id: '1',
-    title: 'Bouncing Ball Game',
-    description: 'Interactive browser-based bouncing ball game featuring smooth animations, physics-based movement, collision detection, score tracking, and responsive gameplay.',
-    image: 'https://res.cloudinary.com/nmrxsjhh/image/upload/v1788712439/ChatGPT_Image_Sep_6_2026_10_03_47_PM_t8doom.png',
-    technologies: ['React', 'JavaScript', 'CSS', 'HTML5 Canvas'],
-    githubUrl: 'https://github.com/nehalafth77/bouncingball',
-    liveUrl: 'https://bouncingball-jet.vercel.app/',
-    category: 'Frontend'
+    title: 'Spotify Clone',
+    description:'A Spotify-inspired music application built with React and Vite. Includes song search, liked songs, a custom audio player, and embedded Spotify tracks.',
+    image:'https://placehold.co/1200x650/121212/1ed760?text=Spotify+Clone',
+    technologies: ['React', 'Vite', 'JavaScript', 'CSS'],
+    githubUrl: 'https://github.com/meghnameena/spotify-clone',
+    liveUrl:'https://spotify-clone-1tlt3v2a3-meghna-meena-s-projects.vercel.app/',
+    category: 'Frontend',
   },
   {
     _id: '2',
