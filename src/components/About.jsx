@@ -5,10 +5,12 @@ import ai from '../assets/ai.png';
 
 const About = () => {
   const highlights = [
-  'PHP & CodeIgniter 3 web application development',
-  'RESTful API development & integration',
-  'CRUD operations & database management',
-  'Authentication, validation & backend logic',
+  "Responsive frontend development",
+  "PHP & CodeIgniter web applications",
+  "RESTful API development & integration",
+  "CRUD operations & database management",
+  "React, JavaScript & AngularJS",
+  "Authentication, validation & backend logic",
 ];
 
   return (
@@ -82,15 +84,22 @@ const About = () => {
             className="lg:col-span-7 flex flex-col space-y-6"
           >
             <h3 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
-              PHP Developer Based in India
+              Full Stack Web Developer Based in India
             </h3>
 
             <p className="text-slate-600 dark:text-slate-300 text-base sm:text-lg leading-relaxed">
-              Hello! I'm <strong className="text-blue-500">Meghna Meena</strong>,a Backend-focused PHP Developer with 1 year of professional experience in developing and maintaining web applications and RESTful APIs. I work with PHP, CodeIgniter 3, Node.js, Express.js, MySQL, MongoDB, and JavaScript, with experience in building CRUD operations, API integration, authentication, validation, and database-driven applications..
+              Hello! I'm <strong className="text-blue-500">Meghna Meena</strong>,a Full Stack
+                  Web Developer experienced in building and maintaining
+                  responsive web applications using PHP, CodeIgniter,
+                  JavaScript, AngularJS, React, and MySQL. I work on
+                  frontend interfaces, backend logic, RESTful APIs,
+                  authentication, validation, and database integration.
             </p>
 
             <p className="text-slate-600 dark:text-slate-300 text-base leading-relaxed">
-             I'm passionate about building clean, efficient, and scalable applications while continuously learning modern technologies and improving my development skills.
+            I'm passionate about building clean, efficient, and
+          scalable web applications while continuously learning
+          modern technologies and improving my development skills...
             </p>
 
             {/* Feature Highlights Grid */}
@@ -125,7 +134,7 @@ const About = () => {
                   <Briefcase className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-slate-900 dark:text-white">Back-End Developer</h4>
+                  <h4 className="text-sm font-semibold text-slate-900 dark:text-white">Full Stack Developer</h4>
                   <p className="text-xs text-slate-600 dark:text-slate-400">Saglus Info pvt.ltd• 2025 - Present</p>
                 </div>
               </div>
@@ -134,8 +143,8 @@ const About = () => {
             {/* CTA Button */}
             <div className="pt-4">
               <a
-                href="/Nehala-ATS.pdf"
-                download="Nehala_Fathima_CV.pdf"
+                href="/Meghna_resume.pdf"
+                download="Meghna_resume.pdf"
                 className="inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all duration-300 hover:scale-105"
               >
                 <Download className="w-4 h-4 mr-2" />

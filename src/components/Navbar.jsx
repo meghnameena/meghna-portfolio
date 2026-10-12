@@ -105,8 +105,8 @@ const Navbar = () => {
 
           {/* Download CV CTA */}
           <a
-            href="/Nehala-ATS.pdf"
-            download="Nehala-ATS.pdf"
+            href="/Meghna_resume.pdf"
+            download="Meghna_resume.pdf"
             className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all duration-300 hover:scale-105 active:scale-95 border border-blue-400/30"
           >
             Download CV

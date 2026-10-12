@@ -79,12 +79,12 @@ const Hero = () => {
 
             {/* Subheading Role */}
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-600 dark:text-blue-400 tracking-tight">
-              Backend Developer
+              Full Stack Web Developer
             </h2>
 
             {/* Brief professional description */}
             <p className="text-slate-600 dark:text-slate-300 text-base sm:text-lg max-w-xl font-normal leading-relaxed">
-              Backend-focused PHP Developer with 1 year of experience in developing web applications and RESTful APIs.
+             Full Stack Web Developer skilled in building responsive, user-friendly web applications using PHP, CodeIgniter, JavaScript, AngularJS, React, and MySQL.
             </p>
 
             {/* Social Media Buttons */}

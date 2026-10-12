@@ -29,4 +29,4 @@ const contactMessageSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.model('ContactMessage', contactMessageSchema);
+export default mongoose.model('ContactMessage', contactMessageSchema, 'contacts');

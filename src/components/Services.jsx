@@ -23,44 +23,44 @@ const Services = () => {
   const servicesList = [
    {
   icon: Code,
-  title: 'PHP Development',
+  title: 'Frontend Development',
   description:
-    'Developing dynamic and scalable web applications using PHP with clean, efficient, and maintainable backend architecture.',
+    'Building responsive and interactive user interfaces using HTML, CSS, JavaScript, React.js, AngularJS, and Bootstrap.',
 },
 
 {
   icon: Layers,
-  title: 'CodeIgniter Development',
+  title: 'Backend Development',
   description:
-    'Building secure and structured web applications using CodeIgniter 3 with MVC architecture and reusable components.',
+    'Developing secure, scalable server-side applications and business logic using PHP, CodeIgniter, Node.js, and Express.js.',
 },
 
 {
   icon: Smartphone,
-  title: 'Responsive Web Development',
+  title: 'Database Design & Management',
   description:
-    'Creating responsive web applications that provide a smooth and consistent experience across desktops, tablets, and mobile devices.',
+    'Designing efficient database structures, managing application data, and implementing CRUD operations using MySQL and MongoDB.',
 },
 
 {
   icon: Palette,
-  title: 'CRUD & Database Management',
+  title: 'REST API Development & Integration',
   description:
-    'Implementing complete CRUD operations and managing application data using MySQL and MongoDB.',
+    'Developing and integrating RESTful APIs with proper request handling, authentication, validation, and frontend-backend communication.',
 },
 
 {
   icon: Cpu,
-  title: 'REST API Development',
+  title: 'Responsive Web Development',
   description:
-    'Designing and developing RESTful APIs using PHP, Node.js, and Express.js with authentication, validation, and database integration.',
+    'Creating mobile-friendly, cross-device web experiences with consistent layouts, usability, and performance.',
 },
 
 {
   icon: Zap,
-  title: 'API Integration',
+  title: 'Full Stack Web Application Development',
   description:
-    'Integrating frontend applications with backend APIs and handling efficient data communication between client and server.',
+    'Building end-to-end web applications by connecting modern frontend interfaces, backend services, APIs, and databases.',
 },
   ];
 

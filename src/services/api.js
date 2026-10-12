@@ -64,6 +64,20 @@ export const fetchProjects = async () => {
 };
 
 export const sendContactMessage = async (formData) => {
+  const dbResponse = await fetch(`${API_BASE_URL}/contact`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData),
+  });
+
+  const dbData = await dbResponse.json();
+
+  if (!dbResponse.ok) {
+    throw new Error(dbData.message || 'Failed to save contact message');
+  }
+
   const templateParams = {
     from_name: formData.name,
     from_email: formData.email,
@@ -71,26 +85,15 @@ export const sendContactMessage = async (formData) => {
     message: formData.message,
   };
 
-  // Send email via EmailJS
-  const response = await emailjs.send(
+  const emailResponse = await emailjs.send(
     EMAILJS_SERVICE_ID,
     EMAILJS_TEMPLATE_ID,
     templateParams,
     EMAILJS_PUBLIC_KEY
   );
 
-  // Optional: Save to backend database asynchronously if server is running
-  try {
-    fetch(`${API_BASE_URL}/contact`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    }).catch(() => { });
-  } catch (e) {
-    // Ignore backend errors if offline
-  }
-
-  return response;
+  return {
+    database: dbData,
+    email: emailResponse,
+  };
 };
